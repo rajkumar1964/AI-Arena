@@ -17,7 +17,9 @@ import {
   Zap
 } from 'lucide-react';
 
-const API_URL = 'http://localhost:3000/invoke';
+const API_URL = '/invoke';
+
+// const API_URL = 'http://localhost:3000/invoke';
 
 const SAMPLE_PROMPTS = [
   {

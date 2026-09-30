@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename)
 app.use(express.static(path.join(__dirname, "..", "dist")));
 
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:["http://localhost:5173", "https://ai-arena-unrm.onrender.com/"],
     methods:["GET", "POST"],
     credentials:true
 
